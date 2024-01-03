@@ -1,0 +1,457 @@
+<!--L2 TASK 17: BOOTSTRAP-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Fonts and Icons-->
+    <link href='https://fonts.googleapis.com/css?family=Overlock' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Nunito&family=Overlock:ital,wght@1,700&display=swap" 
+    rel="stylesheet">
+
+    <!--Link to style sheet-->
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Magrietjie's Knots & Stiches</title>
+  </head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-light navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#hero-area">
+                <img src="assets/images/Magrietjies-round.png" alt="" width="50" height="50" class="d-inline-block align-text-center">
+                Magrietjie's Knots & Stitches
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex flex-row order-lg-last">
+                <!-- Insert shopping cart logo for check out (not functional yet) -->
+                <a class="pl-3 pl-sm-4 pr-2 navbar-text cart-wrapper" href="#">
+                    <span class="fa fa-shopping-cart fa-lg navbar-icon"></span>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!--Link will to navigate to hero area-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero-area">Home</a>
+                    </li>
+                    <!--Link to navigate to About us-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About-us">About Us</a>
+                    </li>
+                    <!--Link to navigate to Clothing- or Accessories section-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact-us">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="main-content">    
+        <header>
+            <!--Hero image-->
+            <div id="hero-area">
+                <div class="container">
+                    <div class="hero-image">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 offset-md-4">
+                                <img src="assets/images/Magrietjies-round.png" alt="" width="250" height="250" class="img-fluid">
+                            </div>
+                        </div>
+                        <br/><br/><br/>
+                        <div class="row align-items-center">
+                            <div class="col-md-2 offset-md-5">
+                                <div class="hero-text">
+                                    <p>Your One stop hand-made items</p>
+                                    <button>Shop Now</button>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </header>
+        <!--Section begin: Products-->
+        <section id="products" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <hr class="lines">
+                    <h2>Our Products</h2>
+                </div>
+            </div>
+            <!--Catagory: Clothing-->
+            <div class="section-header">
+                <div id="clothing" class="our-products">
+                    <h3>Clothing</h3>
+                </div>
+            </div>
+            <div class="row">
+                <!--Hover curser to display name, price and buy button-->
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="p-2">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="assets/images/Inv1.jpg" alt="Floral matching set" class="responsive" class="image" style="width: 100%">
+                                </div>
+                                <div class="text">
+                                    <h3>Floral matching set</h3>
+                                    <h4>R 300</h4>
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>                            
+                        </div>
+                        
+                    </div>    
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="p-2">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="assets/images/Picture10.jpg" alt="Floral dress" class="responsive" style="width: 100%">
+                                </div>
+                                <div class="text">
+                                    <h3>Floral dress black</h3>
+                                    <h4>R 250</h4>
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="p-2">
+                           <div class="container">
+                                <div class="image">
+                                    <img src="assets/images/Picture2.jpg" alt="Red crochet dress" class="responsive" style="width: 100%">
+                                </div>
+                                <div class="text">
+                                    <h3>Crochet floral red</h3>
+                                    <h4>R 450</h4>
+                                    <button>Add to cart</button>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="p-2">
+                            <div class="container">
+                                <div class="image">
+                                    <img src="assets/images/Picture8.jpg" alt="Purple Crochet dress" class="responsive" style="width: 100%">
+                                </div>
+                                <div class="text">
+                                    <h3>Crochet floral purple</h3>
+                                    <h4>R 450</h4>
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/unicorn-pj-set.jpg" alt="PJ set" class="responsive" style="width: 100%">
+                            </div>
+                            <div class="text">
+                                <h3>Unicorn pj set</h3>
+                                <h4>R 250</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/butterfly.jpg" alt="Butterfly" class="responsive" style="width: 100%">
+                            </div>
+                            <div class="text">
+                                <h3>Butterfly top</h3>
+                                <h4>R 150</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/bee-pj-set.jpg" alt="bee-pj-set" class="responsive" style="width: 100%">
+                            </div>
+                            <div class="text">
+                                <h3>Bee pj set</h3>
+                                <h4>R 250</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/Picture9.jpg" alt="Green crochet" style="width: 100%" class="responsive">
+                            </div>
+                            <div class="text">
+                                <h3>Crochet embrodary dress</h3>
+                                <h4>R 500</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <!--Product: Accessories-->
+            <div class="section-header">
+                <div id="accessories" class="our-products">
+                    <h3>Accessories</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/headband.jpg" alt="Pink headband" class="img-fluid" style="width: 100%">
+                            </div>
+                            <div class="text">
+                                <h3>Crochet headband pink</h3>
+                                <h4>R 55</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>                        
+                    </div>                   
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/bow-set.jpg" alt="Bow set" class="img-fluid" style="width: 100%">
+                            </div>
+                            <div class="text">
+                                <h3>Crochet bow set</h3>
+                                <h4>R 90</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/headband-set.jpg" alt="Headband set" class="img-fluid" style="width: 100%">
+                            </div>
+                            <div class="text">
+                                <h3>Crochet headband set</h3>
+                                <h4>R 120</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-2">
+                        <div class="container">
+                            <div class="image">
+                                <img src="assets/images/hairbow.jpg" alt="Hairbow" class="img-fluid" style="width: 100%">
+                            </div>
+                            <div class="text">
+                                <h3>Crochet hairbow</h3>
+                                <h4>R 60</h4>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <!--Section begin About Us-->
+        <section id="About-us">
+            <div class="about-us">
+                <div class="container">
+                    <!--About us section header-->
+                    <div class="section-header">
+                        <hr class="lines">
+                        <h2>About Us</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 section-text-color section-text-align">
+                        <p>
+                            Magrietjie’s Knots and Stitches isn't just a small business – it's a family legacy, connecting generations,
+                            and celebrating craftsmanship and creativity. It all began with a granddaughter and her skilled grandmother
+                            who shared a deep passion for sewing, knitting, and crocheting. The grandmother's patient teachings 
+                            instilled not only the techniques but also a profound love for textiles and crafts.
+                        </p>
+                        <p>
+                            The special bond between them flourished as they embraced new creative projects, often met
+                            with an enthusiastic "YES!" from the grandmother. Their local fabric and wool shop became
+                            their haven as they carefully selected the finest materials. This bond ultimately gave rise
+                            to Magrietjie’s Knots and Stitches, with the duo crafting beautiful clothing and accessories,
+                            driven by a shared dedication to quality and creativity.
+        
+                        </p>
+                        <p>
+                            Their handmade creations garnered widespread appreciation and led to the inception of this small business. 
+                            It was born from a desire to share their rich tradition and craftsmanship with the world. At its core,
+                            Magrietjie’s Knots and Stitches stands for quality, creativity, and community. The brand is committed to 
+                            preserving family traditions and invites you to be a part of their story by bringing their lovingly crafted 
+                            products into your life. Thank you for joining them on this journey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section End About US-->
+        <!--Section Begin: Meet the Team-->
+        <section class="Meet-the-Team">
+            <div class="container">
+                <div class="section-header">
+                    <hr class="lines">
+                    <h2>Meet the Team</h2>
+                </div>
+                <!--Place images side by side-->
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="p-3">
+                            <div class="card">
+                                <img src="assets/images/Ouma-bokkie.jpg"
+                                alt="Magriet" style="width: 100%" class="responsive">
+                                <div class="container">
+                                    <h2>Magriet Vermeulen</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="p-3">
+                            <div class="card">
+                                <img src="assets/images/Cella PP.jpg"
+                                alt="" style="width: 100%" class="responsive">
+                                <div class="container">
+                                    <h2>Marcelle Meintjes</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section End: Meet the Team -->
+        <!--Section Begin: Contach us-->
+        <section id="Contact-us">
+            <div class="container">
+                <div class="section-header">
+                    <hr class="lines">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-6 col-lg-12 text-center pt-4 pb-3">
+                        <h3>Call us</h3>
+                        <!--This is a fake number-->
+                        <h5>082 000 000</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-6 col-lg-12 text-center pt-1 pb-3">
+                        <h3>Email</h3>
+                        <!--This is a fake email adress-->
+                        <h5>info@magrietjies.com</h5>
+                    </div>
+                    <div class="col-sm-4 col-md-6 col-lg-12 text-center pt-1 pb-3">
+                        <h3>Visit our website</h3>
+                        <!--This is a fake number-->
+                        <h5>www.magrietjiesk&s.co.za</h5>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <!--Footer section and horizontal form-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm-4 col-md-4 col-lg-6">
+                    <div class="company-name">
+                        <h3>Magrietjie’s Knots & Stiches</h3>
+                        <img src="assets/images/Magrietjies-round.png" alt="Logo" class="img-fluid" >
+                    </div>
+                </div>
+                <!--Customer contact details-->
+                <div class="col-sm-4 col-md-6 col-lg-6">
+                    <form>
+                        <div class="contact-details">
+                            <h3>Please fill in contact details below:</h3>
+                        </div>
+                        <div class="form-group row">
+                            <lable for="inputname" class="col-form-label">Name</lable>
+                            <div class="col">
+                                <input type="name" class="form-control" id="inputname" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <lable for="inputsurname" class="col-form-label">Surname</lable>
+                            <div class="col">
+                                <input type="name" class="form-control" id="inputsurname" placeholder="Surname">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <lable for="inputnumber" class="col-form-label">Phone </lable>
+                            <div class="col">
+                                <input type="number" class="form-control" id="inputnumber" placeholder="Phone number">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <lable for="inputemail" class="col-form-label">Email  </lable>
+                            <div class="col">
+                                <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <lable for="inputcomment" class="col-form-label">Comment</lable>
+                            <div class="col">
+                                <input type="text" class="form-control" id="inputcomment" placeholder="Comment">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+<!--SOURCES USED-->
+<!--https://getbootstrap.com/docs/5.0/examples/cheatsheet/-->
+<!--https://getbootstrap.com/docs/5.0/components/navbar/-->
+<!--https://www.w3schools.com/howto/howto_css_hero_image.asp-->
+<!--https://www.w3schools.com/howto/howto_css_images_side_by_side.asp-->
+<!--https://www.w3schools.com/howto/howto_css_team.asp-->
+<!--https://www.w3schools.com/howto/howto_css_image_overlay.asp-->
+<!--https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp-->
+<!--https://www.youtube.com/watch?v=Jf-hNuvrLOY-->
